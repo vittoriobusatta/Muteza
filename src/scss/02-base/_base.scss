@@ -7,6 +7,19 @@
   background-color: var(--primary_color);
 }
 
+::-moz-selection {
+  background: var(--primary_color);
+  text-shadow: none;
+}
+::selection {
+  background: var(--primary_color);
+  text-shadow: none;
+}
+
+body {
+  background-color: var(--bg_color);
+}
+
 .scrollbar {
   position: absolute;
   right: 0;
@@ -26,5 +39,3 @@
     cursor: grab;
   }
 }
-
-

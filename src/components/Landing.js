@@ -29,7 +29,7 @@ function Landing() {
               <span className="row">
                 <span>PERSONALISED</span>
               </span>
-              <span className="row gap">
+              <span className="row gap padgap">
                 <span className="serum_before">SERUM TO</span>
               </span>
               <span className="row">
@@ -39,7 +39,7 @@ function Landing() {
           </div>
         </div>
         <div className="landing_right img-detect is-inview">
-          <div className="is-inview">
+          <div className=" landing_image is-inview">
             <img src={banner} alt="Magical Serum" />
           </div>
         </div>

@@ -1,22 +1,11 @@
 /*Animations*/
 
-.row {
-  overflow: hidden;
-  white-space: nowrap;
-  width: max-content;
-  width: -webkit-max-content;
-  width: -ms-max-content;
-  line-height: 80%;
-  display: block;
-  &:nth-child(3) {
-    padding-left: 80px;
-  }
-}
 
-.row > span{
+
+.row > span {
   display: block;
-  transition: .8s cubic-bezier(.215,.61,.355,1);
-  transition-delay: .2s;
+  transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-delay: 0.2s;
   transform: translate(0, 100%);
 }
 
@@ -36,7 +25,7 @@
 //   transition-delay: .4s;
 // }
 
-.detect.is-inview .row>span{
+.detect.is-inview .row > span {
   transform: translate(0, 0);
 }
 

@@ -6,13 +6,13 @@ import serum from "../assets/images/serum.png";
 function About() {
   return (
     <>
-      <section class="o-section c-about col-12">
-        <div class="c-about_title col-4">
+      <section class="about">
+        <div class="about_title ">
           <h2 data-scroll="" class="size_h2 detect is-inview">
             <span class="row">
               <span>WHERE</span>
             </span>
-            <span class="row  gap">
+            <span class="row gap">
               <span>SCIENCE</span>
             </span>
             <span class="row">
@@ -23,24 +23,24 @@ function About() {
             </span>
           </h2>
         </div>
-        <div class="c-about_image col-4">
+        <div class="about_image ">
           <img
             data-scroll=""
             data-scroll-speed="1"
-            class="u-about_img--left is-inview"
+            class="orange_img is-inview"
             src={flopet}
             alt="orange"
           />
-          <img class="u-about_img--center" src={serum} alt="serum" />
+          <img class="serum_img" src={serum} alt="serum" />
           <img
             data-scroll=""
             data-scroll-speed="2"
-            class="u-about_img--right is-inview"
+            class="petal_img is-inview"
             src={peelpet}
             alt="petal"
           />
         </div>
-        <div class="c-about_para col-4">
+        <div class="about_description ">
           <p>
             Each and every formula contains ingredients in the dosages that will
             do the most for your skin right now. Your formula keeps changing as
