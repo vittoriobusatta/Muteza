@@ -1,24 +1,21 @@
 import React from "react";
 import how3 from "../assets/images/how3.jpg";
 
-
 function How() {
   return (
     <div>
-      <section class="c-how col-12" data-scroll-section="">
-        <div
-          class="c-how_title col-3 is-inview"
-          data-scroll=""
-          data-scroll-speed="1.6"
-        >
-          <h2 data-scroll="" class="o-h2 detect is-inview">
-            <span class="row">
-              <span>HOW THIS</span>
-            </span>
-            <span class="row">
-              <span>WORKS</span>
-            </span>
-          </h2>
+      <section class="how" data-scroll-section="">
+        <div class="how_title is-inview" data-scroll="" data-scroll-speed="1.6">
+          <div>
+            <h2 data-scroll="" class="o-h2 detect is-inview">
+              <span class="row">
+                <span>HOW THIS</span>
+              </span>
+              <span class="row">
+                <span>WORKS</span>
+              </span>
+            </h2>
+          </div>
           <p>
             We take care of everything, you just have to test your skin and
             apply serum.
@@ -31,7 +28,7 @@ function How() {
             <img src={how3} alt="lady" />
           </div>
         </div>
-        <div class="c-how_steps col-9">
+        <div class="how_steps">
           <ul>
             <li>
               <h3>
