@@ -81,9 +81,6 @@
 .landing_button {
   padding-right: 18%;
   padding-bottom: 8vh;
-  @media screen and (max-width: 768px) {
-    padding-bottom: 4vh;
-  }
   & > div span {
     display: flex;
     justify-content: flex-end;

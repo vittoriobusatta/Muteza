@@ -51,7 +51,6 @@
 
 .about_image {
   position: relative;
-  grid-area: 1 / 2 / 2 / 3;
   height: 100%;
   @media screen and (min-width: 768px) {
     text-align: center;
@@ -63,11 +62,12 @@
 .petal_img {
   position: absolute;
   width: 20vw;
+  height: auto;
 }
 
 .orange_img {
   top: 8%;
-  left: -30%;
+  left: -22%;
   z-index: 2;
   @media screen and (min-width: 768px) {
     top: -1%;
@@ -76,7 +76,7 @@
 }
 
 .serum_img {
-  width: 75%;
+  width: 96%;
   margin: auto;
   transform: rotate(8.27deg) translate(0, -3.5%);
   @media screen and (min-width: 768px) {
@@ -86,7 +86,7 @@
 
 .petal_img {
   top: 0%;
-  right: -8%;
+  right: -10%;
   @media screen and (min-width: 768px) {
     top: -8%;
     right: -32%;
