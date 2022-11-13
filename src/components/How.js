@@ -7,7 +7,7 @@ function How() {
       <section class="how" data-scroll-section="">
         <div class="how_title is-inview" data-scroll="" data-scroll-speed="1.6">
           <div>
-            <h2 data-scroll="" class="o-h2 detect is-inview">
+            <h2 data-scroll="" class="size_h2 detect is-inview">
               <span class="row">
                 <span>HOW THIS</span>
               </span>
