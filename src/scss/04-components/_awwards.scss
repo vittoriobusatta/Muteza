@@ -1,0 +1,35 @@
+#awwards {
+  height: 171.358px;
+  width: 53.08px;
+  position: fixed;
+  z-index: 1000;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 0;
+  background: rgb(155, 212, 215);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    height: 136.66px;
+    width: 26.26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  p {
+    transform: rotate(-90deg);
+    margin: 0;
+    color: #fff;
+    height: fit-content;
+    margin-bottom: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}
+
+.awwards_logo {
+  width: 28px;
+  height: auto;
+}

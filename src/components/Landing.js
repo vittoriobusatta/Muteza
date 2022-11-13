@@ -5,43 +5,41 @@ import banner from "../assets/images/banner.jpg";
 function Landing() {
   return (
     <>
-      <section class="o-section c-banner col-12">
-        <div class="c-banner_text col-7">
-          <div class="c-banner_text_button">
+      <section className="landing">
+        <div className="landing_left">
+          <div className="landing_button">
             <div>
-              <a href="u">
-                <img class="b-cta" src={arrow} alt="Go" />
-                <div class="c-banner_text_button--circle">
+              <span>
+                <img className="get_yours_circle" src={arrow} alt="Go" />
+                <div className="get_yours_btn">
                   <p>
                     GET
                     <br />
                     YOURS NOW
                   </p>
                 </div>
-              </a>
+              </span>
             </div>
           </div>
-          <div class="c-banner_text_title">
-            <h1 data-scroll="" class="detect is-inview">
-              <span class="o-row u-shift">
+          <div className="landing_title">
+            <h1 className="detect is-inview">
+              <span className="row gap">
                 <span>*YOUR</span>
               </span>
-              <span class="o-row">
+              <span className="row">
                 <span>PERSONALISED</span>
               </span>
-              <span class="o-row u-shift u-bnr--padd">
-                <span>
-                  <span class="u-banner--serum">*MIRACLE /SERUM</span>SERUM TO
-                </span>
+              <span className="row gap">
+                <span className="serum_before">SERUM TO</span>
               </span>
-              <span class="o-row">
+              <span className="row">
                 <span>PERFECT SKIN</span>
               </span>
             </h1>
           </div>
         </div>
-        <div class="c-banner_image col-5 img-detect is-inview" data-scroll="">
-          <div data-scroll="" data-scroll-speed="-2" class="is-inview">
+        <div className="landing_right img-detect is-inview">
+          <div className="is-inview">
             <img src={banner} alt="Magical Serum" />
           </div>
         </div>

@@ -1,8 +1,6 @@
-
-
 /*Animations*/
 
-.o-row{
+.row {
   overflow: hidden;
   white-space: nowrap;
   width: max-content;
@@ -10,45 +8,48 @@
   width: -ms-max-content;
   line-height: 80%;
   display: block;
+  &:nth-child(3) {
+    padding-left: 80px;
+  }
 }
 
-.o-row > span{
+.row > span{
   display: block;
   transition: .8s cubic-bezier(.215,.61,.355,1);
   transition-delay: .2s;
   transform: translate(0, 100%);
 }
 
-.detect .o-row:first-child span{
-  transition-delay: .1s;
-}
+// .detect .o-row:first-child span{
+//   transition-delay: .1s;
+// }
 
-.detect .o-row:nth-child(2) span{
-  transition-delay: .2s;
-}
+// .detect .o-row:nth-child(2) span{
+//   transition-delay: .2s;
+// }
 
-.detect .o-row:nth-child(3) span{
-  transition-delay: .3s;
-}
+// .detect .o-row:nth-child(3) span{
+//   transition-delay: .3s;
+// }
 
-.detect .o-row:nth-child(4) span{
-  transition-delay: .4s;
-}
+// .detect .o-row:nth-child(4) span{
+//   transition-delay: .4s;
+// }
 
-.detect.is-inview .o-row>span{
+.detect.is-inview .row>span{
   transform: translate(0, 0);
 }
 
-.img-detect{
-  overflow: hidden;
-}
+// .img-detect{
+//   overflow: hidden;
+// }
 
-.img-detect img{
-  transform: scale(1.4, 1.4);
-  transition: transform .6s cubic-bezier(.215,.61,.355,1);
-  transition-delay: .1s;
-}
+// .img-detect img{
+//   transform: scale(1.4, 1.4);
+//   transition: transform .6s cubic-bezier(.215,.61,.355,1);
+//   transition-delay: .1s;
+// }
 
-.img-detect.is-inview img{
-  transform: scale(1, 1);
-}
+// .img-detect.is-inview img{
+//   transform: scale(1, 1);
+// }

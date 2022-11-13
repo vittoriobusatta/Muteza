@@ -1,94 +1,155 @@
+// .col-2 {
+//   width: 16.66%;
+// }
+// .col-3 {
+//   width: 25%;
+// }
+// .col-4 {
+//   width: 33.33%;
+// }
+// .col-5 {
+//   width: 41.66%;
+// }
+// .col-6 {
+//   width: 50%;
+// }
+// .col-7 {
+//   width: 58.33%;
+// }
+// .col-8 {
+//   width: 66.66%;
+// }
+// .col-9 {
+//   width: 75%;
+// }
+// .col-10 {
+//   width: 83.33%;
+// }
+// .col-11 {
+//   width: 91.66%;
+// }
+// .col-12 {
+//   width: 100%;
+// }
 
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-  
-  .o-h2{
-    font-size: 4.5vw;
+
+
+.landing {
+  display: inline-flex;
+  padding-top: 20vh;
+  width: 100%;
+  @media screen and (max-width: 576px) {
+    padding-top: 15vh;
   }
-  
-  .c-banner{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0;
-    padding-top: 20vh;
+}
+
+.landing_left {
+  padding-left: 4vw;
+  position: relative;
+  z-index: 2;
+  width: 60%;
+}
+
+.landing_right {
+  height: 100vh;
+  overflow: hidden;
+  width: 40%;
+}
+
+.landing_button {
+  padding-right: 18%;
+  padding-bottom: 8vh;
+  @media screen and (max-width: 768px) {
+    padding-bottom: 4vh;
   }
-  
-  .c-banner_text{
-    padding-left: 4vw;
-    position: relative;
-    z-index: 2;
-  }
-  
-  .c-banner_text_button{
-    padding-right: 18%;
-    padding-bottom: 8vh;
-    padding: 0 18% 8vh 50%;
-  }
-  
-  .c-banner_text_button > div a{
+  & > div span {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
+    & > img {
+      transform: translate(20px, 0);
+      transition: 0.6s;
+      @media screen and (max-width: 576px) {
+        transform: translate(10px, 0);
+      }
+    }
+    &:hover > .get_yours_circle {
+      transform: translate(32px, 0);
+      @media screen and (max-width: 576px) {
+        transform: translate(22px, 0);
+      }
+    }
   }
-  
-  .c-banner_text_button a > img{
-    transform: translate(20px, 0);
-    transition: .6s;
-  }
-  
-  .c-banner_text_button a:hover > .b-cta{
-    transform: translate(32px, 0) !important;
-  }
-  
-  .c-banner_text_button--circle{
-    border: 1px solid rgba(27, 39, 44, 0.2);
-    border-radius: 1000px;
-    width: 150px;
-    height: 150px;
-    padding: 24.5% 8% 0 0;
-    text-align: right;
-  }
-  
-  .c-banner_text_title h1{
-    font-size: 9.2vw;
-    color: rgb(27, 38, 44);
-    font-family: var(--elgoc);
-  }
-  
-  .c-banner_image{
-    height: 125vh;
-  }
-  
-  .u-shift{
-    transform: translate(20%, 0);
-  }
-  
-  .c-banner_image img{
-    width: 112%;
-    margin-top: -10%;
-  }
+}
 
-  .u-banner--serum{
-    height: 0px;
-    width: 10px;
-    line-height: 12px;
-    white-space: pre-wrap;
+.get_yours_circle {
+  @media screen and (max-width: 768px) {
+    width: 50px;
+  }
+  @media screen and (max-width: 576px) {
+    width: 40px;
+  }
+}
+
+.get_yours_btn {
+  border: 1px solid rgba(27, 39, 44, 0.2);
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  padding: 60px 26px 0 0;
+  text-align: right;
+  @media screen and (max-width: 992px) {
+    width: 120px;
+    height: 120px;
+    padding: 48px 20px 0 0;
+    p {
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    width: 100px;
+    height: 100px;
+    padding: 40px 17px 0 0;
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+.landing_title h1 {
+  font-size: 9.2vw;
+  color: rgb(27, 38, 44);
+  font-family: var(--elgoc);
+}
+
+.gap {
+  transform: translate(20%, 0);
+}
+
+.c-banner_image img {
+  width: 112%;
+  margin-top: -10%;
+}
+
+.serum_before {
+  position: relative;
+  &::before {
+    content: "*MIRACLE /SERUM";
+    position: absolute;
+    bottom: 20px;
+    left: -60px;
     font-size: 10px;
-    font-family: ttnorms;
-    display: block;
-    transform: translate(-5vw, 4.9vh);
-    text-align: right;
+    font-family: var(--ttnorms);
+    white-space: pre-wrap;
+    line-height: 12px;
+    width: 10px;
+    @media screen and (max-width: 576px) {
+      bottom: 10px;
+      left: -35px;
+      font-size: 6px;
+      line-height: 6px;
+    }
   }
-  
-  .u-bnr--padd{
-    padding-left: 80px;
-  }
+}
+
