@@ -8,7 +8,7 @@ import info from "../assets/images/info.jpg";
 function Info() {
   return (
     <>
-      <section class="nfo" data-scroll-section="">
+      <section class="info" data-scroll-section="">
         <h2 class="size_h2">
           Get the right ingredients at the right amounts for your skin.
         </h2>
