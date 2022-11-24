@@ -13,9 +13,14 @@ function App() {
   const containerRef = useRef(null);
   const options = {
     smooth: true,
+    multiplier: 1.0,
     smartphone: {
-      smooth : true
-    }
+      smooth: true,
+      touchMultiplier: 2,
+    },
+    tablet: {
+      smooth: true,
+    },
   };
   return (
     <LocomotiveScrollProvider options={options} containerRef={containerRef}>
