@@ -4,8 +4,7 @@ import banner from "../assets/images/banner.jpg";
 
 function Landing() {
   return (
-    <>
-      <section className="landing">
+      <section className="landing" data-scroll-section>
         <div className="landing_left">
           <div className="landing_button">
             <div>
@@ -22,7 +21,7 @@ function Landing() {
             </div>
           </div>
           <div className="landing_title">
-            <h1 className="detect is-inview">
+            <h1 className="detect is-inview" data-scroll>
               <span className="row gap">
                 <span>*YOUR</span>
               </span>
@@ -39,12 +38,11 @@ function Landing() {
           </div>
         </div>
         <div className="landing_right img-detect is-inview">
-          <div className=" landing_image is-inview">
+          <div className="landing_image is-inview" data-scroll="" data-scroll-speed="-2">
             <img src={banner} alt="Magical Serum" />
           </div>
         </div>
       </section>
-    </>
   );
 }
 

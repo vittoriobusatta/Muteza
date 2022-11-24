@@ -7,19 +7,19 @@ import dropper from "../assets/images/dropper.png";
 function Benefit() {
   return (
     <section
-      class="benefit"
-      data-scroll-section=""
-      data-scroll-section-inview=""
+      className="benefit"
+      data-scroll-section
+      data-scroll-section-inview
     >
-      <div class="benefit_image img-detect">
-        <div data-scroll="" data-scroll-speed="-1.5" class="is-inview">
+      <div className="benefit_image img-detect">
+        <div className="is-inview" data-scroll data-scroll-speed="-1.5">
           <img src={ing} alt="benefits" />
         </div>
       </div>
-      <div class="benefit_cards">
-        <ul class="col-9">
-          <li data-scroll="" data-scroll-speed="1" class="is-inview">
-            <div class="benefit--card u-benefit--color1">
+      <div className="benefit_cards">
+        <ul className="col-9">
+          <li  className="is-inview" data-scroll data-scroll-speed="1">
+            <div className="benefit--card u-benefit--color1">
               <h3>
                 ADAPTS TO
                 <br />
@@ -33,8 +33,8 @@ function Benefit() {
               <img src={clock} alt="clock" />
             </div>
           </li>
-          <li data-scroll="" data-scroll-speed="2" class="is-inview">
-            <div class="benefit--card u-benefit--color2">
+          <li className="is-inview" data-scroll data-scroll-speed="2">
+            <div className="benefit--card u-benefit--color2">
               <h3>
                 BEST
                 <br />
@@ -47,8 +47,8 @@ function Benefit() {
               <img src={leaf} alt="leaf" />
             </div>
           </li>
-          <li data-scroll="" data-scroll-speed="3" class="is-inview">
-            <div class="benefit--card u-benefit--color3">
+          <li className="is-inview" data-scroll data-scroll-speed="3">
+            <div className="benefit--card u-benefit--color3">
               <h3>
                 YOUR PERFECT
                 <br />
@@ -66,5 +66,6 @@ function Benefit() {
     </section>
   );
 }
+
 
 export default Benefit;

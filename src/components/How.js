@@ -3,14 +3,14 @@ import how3 from "../assets/images/how3.jpg";
 
 function How() {
   return (
-    <section class="how" data-scroll-section="">
-      <div class="how_title is-inview" data-scroll="" data-scroll-speed="1.6">
+    <section className="how" data-scroll-section>
+      <div className="how_title is-inview" data-scroll="" data-scroll-speed="1.6">
         <div>
-          <h2 data-scroll="" class="size_h2 detect is-inview">
-            <span class="row">
+          <h2 data-scroll="" className="size_h2 detect is-inview">
+            <span className="row">
               <span>HOW THIS</span>
             </span>
-            <span class="row">
+            <span className="row">
               <span>WORKS</span>
             </span>
           </h2>
@@ -20,14 +20,14 @@ function How() {
           serum.
         </p>
         <div
-          class="img-detect is-inview"
+          className="img-detect is-inview"
           data-scroll=""
           data-scroll-offset="10%"
         >
           <img src={how3} alt="lady" />
         </div>
       </div>
-      <div class="how_steps">
+      <div className="how_steps">
         <ul>
           <li>
             <h3>

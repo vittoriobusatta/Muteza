@@ -6,18 +6,26 @@ import How from "./components/How";
 import Info from "./components/Info";
 import Landing from "./components/Landing";
 import "./scss/styles.scss";
+import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import { useRef } from "react";
 
 function App() {
+  const containerRef = useRef(null);
+  const options = {
+    smooth: true,
+  };
   return (
-    <>
-      <Header />
-      <Awwards />
-      <Landing />
-      <About />
-      <How />
-      <Info />
-      <Benefits />
-    </>
+    <LocomotiveScrollProvider options={options} containerRef={containerRef}>
+      <main data-scroll-container ref={containerRef}>
+        <Header />
+        <Awwards />
+        <Landing />
+        <About />
+        <How />
+        <Info />
+        <Benefits />
+      </main>
+    </LocomotiveScrollProvider>
   );
 }
 
