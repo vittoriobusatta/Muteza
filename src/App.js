@@ -13,11 +13,8 @@ function App() {
   const containerRef = useRef(null);
   const options = {
     smooth: true,
-    mobile: {
-      smooth: true,
-    },
     tablet: {
-      smooth: true,
+      breakpoint: 0,
     },
   };
   return (
