@@ -13,10 +13,10 @@ function App() {
   const containerRef = useRef(null);
   const options = {
     smooth: true,
-    multiplier: 1.0,
+    multiplier: 1,
     smartphone: {
       smooth: true,
-      touchMultiplier: 2,
+      touchMultiplier: 3,
     },
     tablet: {
       smooth: true,
