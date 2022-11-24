@@ -24,11 +24,11 @@
   display: flex;
   justify-content: space-evenly;
   width: 75%;
+  // padding-left: 4vw;
   @media screen and (max-width: 576px) {
     column-gap: 5px;
     width: 100%;
   }
-  padding-left: var(--padding-side);
 }
 
 .benefit_cards ul li {
