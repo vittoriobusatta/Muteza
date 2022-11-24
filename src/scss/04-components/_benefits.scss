@@ -1,0 +1,56 @@
+.benefit {
+    width: 100%;
+  padding: 0;
+  margin-bottom: -8%;
+}
+
+.benefit_image > div {
+  height: 95vh;
+  text-align: right;
+}
+
+.benefit_image img {
+  width: 90%;
+}
+
+.benefit_cards {
+  transform: translate(0, -55%);
+}
+
+.benefit_cards ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: var(--padding-side);
+}
+
+.benefit_cards ul li {
+  width: 33.33%;
+}
+
+.benefit--card {
+  text-align: center;
+  height: 100%;
+  padding: 22% 13% 0 13%;
+}
+
+.benefit--card h3 {
+  font-size: 2.2vw;
+  padding-bottom: 20px;
+}
+
+.benefit--card img {
+  margin-top: 30%;
+  width: 80%;
+}
+
+.u-benefit--color1 {
+  box-shadow: inset 0 390px #fff2e5;
+}
+
+.u-benefit--color2 {
+  box-shadow: inset 0 390px #fcf0e3;
+}
+
+.u-benefit--color3 {
+  box-shadow: inset 0 390px #faede0;
+}

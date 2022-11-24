@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Awwards from "./components/Awwards";
+import Benefits from "./components/Benefit";
 import Header from "./components/Header";
 import How from "./components/How";
 import Info from "./components/Info";
@@ -15,6 +16,7 @@ function App() {
       <About />
       <How />
       <Info />
+      <Benefits />
     </>
   );
 }
