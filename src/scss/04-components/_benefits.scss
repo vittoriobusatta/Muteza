@@ -1,5 +1,5 @@
 .benefit {
-    width: 100%;
+  width: 100%;
   padding: 0;
   margin-bottom: -8%;
 }
@@ -7,6 +7,9 @@
 .benefit_image > div {
   height: 95vh;
   text-align: right;
+  @media screen and (max-width: 576px) {
+    height: 35vh;
+  }
 }
 
 .benefit_image img {
@@ -20,11 +23,21 @@
 .benefit_cards ul {
   display: flex;
   justify-content: space-evenly;
+  width: 75%;
+  @media screen and (max-width: 576px) {
+    column-gap: 5px;
+    width: 100%;
+  }
   padding-left: var(--padding-side);
 }
 
 .benefit_cards ul li {
   width: 33.33%;
+  @media screen and (max-width: 576px) {
+    & p {
+      font-size: 12px;
+    }
+  }
 }
 
 .benefit--card {
@@ -36,6 +49,9 @@
 .benefit--card h3 {
   font-size: 2.2vw;
   padding-bottom: 20px;
+  @media screen and (max-width: 576px) {
+    font-size: 18px;
+  }
 }
 
 .benefit--card img {

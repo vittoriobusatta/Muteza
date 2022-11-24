@@ -17,7 +17,7 @@ function Benefit() {
         </div>
       </div>
       <div className="benefit_cards">
-        <ul className="col-9">
+        <ul >
           <li  className="is-inview" data-scroll data-scroll-speed="1">
             <div className="benefit--card u-benefit--color1">
               <h3>
