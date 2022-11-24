@@ -13,9 +13,9 @@ function App() {
   const containerRef = useRef(null);
   const options = {
     smooth: true,
+    touchMultiplier: 3.5,
     smartphone: {
       smooth: true,
-      touchMultiplier: 3.5,
     },
     tablet: {
       smooth: true,
