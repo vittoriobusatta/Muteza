@@ -30,7 +30,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 6000);
+    }, 4000);
   });
 
   return (
