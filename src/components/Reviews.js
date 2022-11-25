@@ -5,8 +5,8 @@ import review2 from "../assets/images/review2.jpg";
 
 function Reviews() {
   return (
-    <section className="o-section c-review" data-scroll-section="" data-scroll-section-inview="">
-      <div className="c-review--left col-3">
+    <section className="review" data-scroll-section data-scroll-section-inview>
+      <div className="review_left">
         <h2 className="size_h2">REVIEWS</h2><br />
          <ul>
            <li>
@@ -38,8 +38,8 @@ function Reviews() {
           </li>
          </ul>
       </div>
-      <div className="c-review--right col-9">
-        <div className="c-beforeafter c-beforeafter--left col-7">
+      <div className="review_right">
+        <div className="c-beforeafter c-beforeafter--left">
           <div>
             <img src={review1} alt="Make your face pretty" />
             <p>
@@ -51,8 +51,8 @@ function Reviews() {
              </p>
           </div>
         </div>
-        <div className="c-beforeafter c-beforeafter--right col-4">
-          <div data-scroll="" data-scroll-speed="1.2" className="is-inview">
+        <div className="c-beforeafter c-beforeafter--right">
+          <div data-scroll data-scroll-speed="1.2" className="is-inview">
             <img src={review2} alt="Make your face pretty" />
             <p>
               I don’t wear makeup very often, but when I do I go for a 

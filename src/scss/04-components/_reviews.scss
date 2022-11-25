@@ -1,4 +1,4 @@
-.c-review {
+.review {
   display: flex;
   align-items: flex-start;
   padding: 0 4vw;
@@ -9,9 +9,9 @@
   }
 }
 
-.c-review--left {
+.review_left {
   margin-right: 7vw;
-
+  width: 25%;
   @media screen and (max-width: 576px) {
     width: 50%;
     & h2 {
@@ -20,25 +20,26 @@
   }
 }
 
-.c-review--left ul li {
+.review_left ul li {
   padding: 3vh 0 12%;
 }
 
-.c-review--left ul li img {
+.review_left ul li img {
   width: 120px;
   margin-bottom: 15px;
 }
 
-.c-review--left ul li p span,
+.review_left ul li p span,
 .c-beforeafter p span {
   display: block;
   padding-top: 10px;
   opacity: 0.6;
 }
 
-.c-review--right {
+.review_right {
   display: flex;
   align-items: flex-start;
+  width: 75%;
   @media screen and (max-width: 576px) {
     width: 50%;
     flex-direction: column;
