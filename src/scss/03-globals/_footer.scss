@@ -25,9 +25,7 @@
 .footer--cta h2 {
   margin-bottom: 12vh;
   @media screen and (max-width: 576px) {
-    & h2 {
-      font-size: 34px;
-    }
+    font-size: 24px;
   }
 }
 
