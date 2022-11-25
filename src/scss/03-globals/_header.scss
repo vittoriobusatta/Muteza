@@ -27,18 +27,6 @@ header {
         font-family: var(--elgoc);
         font-size: 20px;
         padding-left: 4vw;
-        @media screen and (max-width: 576px) {
-          display: none;
-        }
-      }
-      .mobile_logo {
-        display: none;
-        @media screen and (max-width: 576px) {
-          display: block;
-          height: 40px;
-          width: auto;
-          padding-left: 4vw;
-        }
       }
     }
     .header_links {
