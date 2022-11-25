@@ -7,12 +7,15 @@ import Info from "./components/Info";
 import Landing from "./components/Landing";
 import "./scss/styles.scss";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
+import Loader from "./components/Loader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
   const containerRef = useRef(null);
+
   const options = {
     smooth: true,
     touchMultiplier: 4,
@@ -23,20 +26,30 @@ function App() {
       smooth: true,
     },
   };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 6000);
+  });
+
   return (
-    <LocomotiveScrollProvider options={options} containerRef={containerRef}>
-      <main data-scroll-container ref={containerRef}>
-        <Header />
-        <Awwards />
-        <Landing />
-        <About />
-        <How />
-        <Info />
-        <Benefits />
-        <Reviews />
-        <Footer />
-      </main>
-    </LocomotiveScrollProvider>
+    <>
+      {loading ? <Loader /> : null}
+      <LocomotiveScrollProvider options={options} containerRef={containerRef}>
+        <main data-scroll-container ref={containerRef}>
+          <Header />
+          <Awwards />
+          <Landing />
+          <About />
+          <How />
+          <Info />
+          <Benefits />
+          <Reviews />
+          <Footer />
+        </main>
+      </LocomotiveScrollProvider>
+    </>
   );
 }
 
