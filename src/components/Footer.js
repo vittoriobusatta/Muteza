@@ -128,14 +128,14 @@ function Footer() {
         </div>
         <div className="footer--copy">
           <p className="col-8">
-            © 2020 Muteza |<br />
+            © 2022 Muteza |<br />
             All rights reserved to
             <a target="_blank" rel="noreferrer" href="https://abhishekjha.me">
               &nbsp; Abhishek Jha
             </a>
             <br />
             Rebuild by
-            <a href="/#">&nbsp;Vittorio</a>
+            <a href="https://www.vittoriobusatta.fr/">&nbsp;Vittorio</a>
           </p>
           <p></p>
           <div>

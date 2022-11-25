@@ -7,7 +7,7 @@ function About() {
   return (
     <section className="about" data-scroll-section>
       <div className="about_title ">
-        <h2 data-scroll="" className="size_h2 detect is-inview">
+        <h2 data-scroll className="size_h2 detect is-inview">
           <span className="row">
             <span>WHERE</span>
           </span>
@@ -24,7 +24,7 @@ function About() {
       </div>
       <div className="about_image ">
         <img
-          data-scroll=""
+          data-scroll
           data-scroll-speed="1"
           className="orange_img is-inview"
           src={flopet}
@@ -32,7 +32,7 @@ function About() {
         />
         <img className="serum_img" src={serum} alt="serum" />
         <img
-          data-scroll=""
+          data-scroll
           data-scroll-speed="2"
           className="petal_img is-inview"
           src={peelpet}
