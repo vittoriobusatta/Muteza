@@ -21,7 +21,7 @@ function Footer() {
                 <span>Your Skin?</span>
               </span>
             </h2>
-            <a href="product.html">
+            <a href="/#">
               SEE PRODUCT<span>⟶</span>
             </a>
           </div>
