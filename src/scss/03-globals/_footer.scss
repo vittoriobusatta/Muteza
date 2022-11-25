@@ -17,6 +17,9 @@
   margin-bottom: 26%;
   padding-bottom: 28%;
   border-bottom: 1px solid rgba(27, 39, 44, 0.2);
+  @media screen and (max-width: 576px) {
+    border-bottom: 0;
+  }
 }
 
 .footer--cta h2 {
@@ -105,7 +108,10 @@
 }
 .footer_responsive > div {
   display: flex;
-  padding: 1vh;
+  padding: 5%;
+  &:last-child {
+    padding-top: 0;
+  }
 }
 
 .footer_responsive ul li > a {
