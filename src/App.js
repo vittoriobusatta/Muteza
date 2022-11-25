@@ -9,6 +9,7 @@ import "./scss/styles.scss";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useRef } from "react";
 import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 function App() {
   const containerRef = useRef(null);
@@ -33,6 +34,7 @@ function App() {
         <Info />
         <Benefits />
         <Reviews />
+        <Footer />
       </main>
     </LocomotiveScrollProvider>
   );
