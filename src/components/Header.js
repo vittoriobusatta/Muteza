@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from "../assets/icons/logo.png"
 
 function Header() {
   return (
@@ -7,7 +6,6 @@ function Header() {
       <div className="header_content">
         <div className="header_logo">
           <a href="/#">Muteza</a>
-          <img className='mobile_logo' src={logo} alt="logo" />
         </div>
         <ul className="header_links">
           <li><a href="/#">Product</a></li>
