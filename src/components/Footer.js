@@ -30,34 +30,34 @@ function Footer() {
             <div>
               <ul className="col-8">
                 <li>
-                  <a href="">Product</a>
+                  <a href="/#">Product</a>
                 </li>
                 <li>
-                  <a href="">How it works</a>
+                  <a href="/#">How it works</a>
                 </li>
                 <li>
-                  <a href="">Faq</a>
+                  <a href="/#">Faq</a>
                 </li>
                 <li>
-                  <a href="">Reviews</a>
+                  <a href="/#">Reviews</a>
                 </li>
                 <li>
-                  <a href="">Blog</a>
+                  <a href="/#">Blog</a>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <a target="_blank" href="https://github.com/vittoriobusatta">
+                  <a target="_blank" rel="noreferrer" href="https://github.com/vittoriobusatta">
                     Github
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://twitter.com/busvtta">
+                  <a target="_blank" rel="noreferrer" href="https://twitter.com/busvtta">
                     Twitter
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://www.behance.net/fltzwoo">
+                  <a target="_blank" rel="noreferrer" href="https://www.behance.net/fltzwoo">
                     Behance
                   </a>
                 </li>
@@ -68,20 +68,20 @@ function Footer() {
                 © 2020 Muteza <br />
                 All rights reserved to
                 <a
-                  target="_blank"
-                  href="https://abhishekjha.me/?ref=muteza-footer"
+                  target="_blank" rel="noreferrer"
+                  href="https://abhishekjha.me/"
                 >
                   &nbsp; Abhishek Jha
                 </a>
                 <br />
                 Rebuild by
-                <a href="">&nbsp;Vittorio</a>
+                <a href="/#">&nbsp;Vittorio</a>
               </p>
               <p></p>
               <div>
-                <a href="#">Privacy Policy</a>
+                <a href="/#">Privacy Policy</a>
                 <br />
-                <a href="#" className="u-copy">
+                <a href="/#" className="u-copy">
                   Terms
                 </a>
               </div>
@@ -93,34 +93,34 @@ function Footer() {
         <div>
           <ul className="col-8">
             <li>
-              <a href="">Product</a>
+              <a href="/#">Product</a>
             </li>
             <li>
-              <a href="">How it works</a>
+              <a href="/#">How it works</a>
             </li>
             <li>
-              <a href="">Faq</a>
+              <a href="/#">Faq</a>
             </li>
             <li>
-              <a href="">Reviews</a>
+              <a href="/#">Reviews</a>
             </li>
             <li>
-              <a href="">Blog</a>
+              <a href="/#">Blog</a>
             </li>
           </ul>
           <ul>
             <li>
-              <a target="_blank" href="https://github.com/vittoriobusatta">
+              <a target="_blank" rel="noreferrer" href="https://github.com/vittoriobusatta">
                 Github
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://twitter.com/busvtta">
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/busvtta">
                 Twitter
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.behance.net/fltzwoo">
+              <a target="_blank" rel="noreferrer" href="https://www.behance.net/fltzwoo">
                 Behance
               </a>
             </li>
@@ -130,18 +130,18 @@ function Footer() {
           <p className="col-8">
             © 2020 Muteza |<br />
             All rights reserved to
-            <a target="_blank" href="https://abhishekjha.me/?ref=muteza-footer">
+            <a target="_blank" rel="noreferrer" href="https://abhishekjha.me">
               &nbsp; Abhishek Jha
             </a>
             <br />
             Rebuild by
-            <a href="">&nbsp;Vittorio</a>
+            <a href="/#">&nbsp;Vittorio</a>
           </p>
           <p></p>
           <div>
-            <a href="#">Privacy Policy</a>
+            <a href="/#">Privacy Policy</a>
             <br />
-            <a href="#" className="u-copy">
+            <a href="/#" className="u-copy">
               Terms
             </a>
           </div>
