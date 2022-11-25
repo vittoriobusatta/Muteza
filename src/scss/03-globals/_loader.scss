@@ -1,4 +1,4 @@
-.c-loader {
+.loader {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -10,19 +10,17 @@
   background: var(--primary_color);
 }
 
-.c-l-up,
-.c-m-up {
+.loader_title,
+.loader_text {
   overflow: hidden;
   display: block;
+  & span {
+    display: block;
+    color: #fff;
+  }
 }
 
-.c-l-up span,
-.c-m-up span {
-  display: block;
-  color: #fff;
-}
-
-.c-loader_text {
+.loader_content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -33,25 +31,20 @@
   & h2 {
     text-align: center;
     @media screen and (max-width: 576px) {
-      font-size: 32px;
+      font-size: 36px;
     }
+  }
+  & > h4 {
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: var(--ttnorms);
+    overflow: hidden;
   }
 }
 
-.c-loader_text h2 > div span {
-  animation: bring-up 0.8s linear;
-}
-
-.c-loader_text > h4 {
-  margin-top: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: ttnorms;
-  overflow: hidden;
-}
-
-.c-loader_circle {
+.loader_circle {
   position: absolute;
   bottom: 15%;
   left: calc(50% - 25px);

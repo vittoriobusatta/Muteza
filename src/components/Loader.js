@@ -13,7 +13,7 @@ function Loader() {
         container.current,
         { opacity: 1, y: 0 + "%", skewY: 0 + "deg" },
         {
-          duration: 1.5,
+          duration: 1.2,
           ease: "expo.out",
           delay: 3,
           y: -100 + "%",
@@ -55,20 +55,20 @@ function Loader() {
   }, []);
 
   return (
-    <div  ref={container} className="c-loader">
-      <div className="c-loader_text">
+    <div ref={container} className="loader">
+      <div className="loader_content">
         <h2 className="size_h2">
-          <span ref={title} className="c-l-up">
+          <span ref={title} className="loader_title">
             <span>MUTEZA</span>
           </span>
         </h2>
         <h4>
-          <span ref={text} className="c-l-up">
+          <span ref={text} className="loader_text">
             <span>Personalised Skin Serum</span>
           </span>
         </h4>
       </div>
-      <div ref={circle} className="c-loader_circle"></div>
+      <div ref={circle} className="loader_circle"></div>
     </div>
   );
 }
